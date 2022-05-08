@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rect_gray"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+             android:layout_height="50dp"
+             android:layout_width="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="寄养编号："
+            android:textSize="20dp"
+            android:gravity="center_vertical|left"/>
+        <TextView
+            android:id="@+id/id"
+            android:layout_height="50dp"
+            android:layout_width="100dp"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:gravity="center_vertical|left"/>
+        <TextView
+            android:layout_height="50dp"
+            android:layout_width="100dp"
+            android:layout_marginTop="30dp"
+            android:text="宠物ID："
+            android:textSize="20dp"
+            android:gravity="center_vertical|left"/>
+        <TextView
+            android:id="@+id/pet_id_in_home"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:gravity="center_vertical|left"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="健康状况："
+            android:textSize="20dp"
+            android:gravity="center_vertical|left"/>
+        <TextView
+            android:id="@+id/health"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:gravity="center_vertical|left"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black" />
+
+    <Button
+        android:id="@+id/detail_btn"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="查看详情"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:background="@drawable/btn_style"/>
+</LinearLayout>

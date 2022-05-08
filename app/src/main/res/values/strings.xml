@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">petManagement</string>
+    <string name="fosterId">寄养编号:</string>
+    <string name="petID">宠物ID:</string>
+    <string name="health">健康状况:</string>
+    <string name="hint">请登录后查看寄养信息!</string>
+
+</resources>
